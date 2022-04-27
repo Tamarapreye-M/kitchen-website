@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400&family=Ubuntu+Mono&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	max-width: 100%;
+}
+header {
+	background-image: url("https://static.wixstatic.com/media/dfd709_7df83df338514f8db43897adf01f2293~mv2.jpg/v1/fill/w_1440,h_690,al_c,q_85,enc_auto/dfd709_7df83df338514f8db43897adf01f2293~mv2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 100vh; */
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+}
+nav ul {
+	display: flex;
+}
+nav li {
+	list-style: none;
+}
+nav a {
+	text-decoration: none;
+	/* margin: 0rem 1rem; */
+	text-transform: uppercase;
+	color: black;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+}
+nav a:active,
+nav a:hover {
+	background-color: orange;
+	/* padding: 0.5rem 1rem; */
+	border: 1px solid orange;
+	color: white;
+}
+
+#order-online {
+	border-left: 1px solid orange;
+	border-right: 1px solid orange;
+}
+/* section in the heaader */
+.head-sec {
+	width: 90%;
+	display: flex;
+	margin: 2% auto;
+	justify-content: center;
+}
+.head-sec .text-box {
+	margin: 10% 0% 10% 13%;
+	width: 40%;
+}
+.text-box h3,
+h1,
+p {
+	margin-bottom: 1rem;
+}
+.text-box h3 {
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+.text-box h1 {
+	font-size: 3rem;
+}
+.text-box p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.text-box button {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 1.5rem;
+	padding: 1rem;
+	background-color: orangered;
+	cursor: pointer;
+	color: white;
+	border: 1px solid orangered;
+}
+.text-box button:hover {
+	color: black;
+	background-color: white;
+}
+.head-sec .img-box {
+	width: 60%;
+	margin-right: 10%;
+}
+.img-box img {
+	width: 100%;
+}
+/* start of main */
+/* first section in main */
+.mSec-1 {
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url("https://static.wixstatic.com/media/dfd709_b3fd3d058ef143b7ad5300d1a2d05ffc~mv2.jpg/v1/fill/w_1583,h_567,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/dfd709_b3fd3d058ef143b7ad5300d1a2d05ffc~mv2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 0rem 4rem;
+}
+.mSec-1 .text-box1 {
+	width: 40%;
+	margin: 0% 10%;
+}
+.text-box1 h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.mSec-1 .img-box1 {
+	width: 60%;
+	display: block;
+	position: relative;
+}
+.img-box1 #img-1 {
+	position: absolute;
+	width: 30%;
+	top: 5%;
+	left: 0%;
+}
+.img-box1 #img-2 {
+	position: relative;
+	width: 70%;
+}
+/* start of secpnd section of main */
+.mSec-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin: auto;
+}
+.mSec-2 div {
+	flex-basis: 28%;
+}
+.mSec-2 img {
+	width: 100%;
+}
+.mSec-3 {
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url("https://static.wixstatic.com/media/acd250efa93940e09e7bea4be8904fb0.jpg/v1/fill/w_1583,h_567,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/acd250efa93940e09e7bea4be8904fb0.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	height: 80vh;
+	display: flex;
+}
+.mSec-3 .text-box3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 3% auto;
+	width: 70%;
+}
+.text-box3 h3 {
+	margin-bottom: 1rem;
+	color: orange;
+}
+.text-box3 h1 {
+	font-size: 4rem;
+}
+.text-box3 #underLine {
+	background-color: orange;
+	width: 10em;
+	height: 0.2rem;
+	margin-bottom: 1rem;
+}
+.text-box3 p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.text-box3 p {
+	width: 60%;
+	text-align: center;
+}
+.text-box3 button {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 1.5rem;
+	padding: 1rem 2.5rem;
+	background-color: transparent;
+	cursor: pointer;
+	color: white;
+	border: 1px solid orange;
+}
+.text-box3 button:hover {
+	background-color: orange;
+}
+/* start of third section in main */
+.mSec-4 {
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url("https://static.wixstatic.com/media/dfd709_7765a25678ed4c2ebc0bdefe0eaeb1a0~mv2.jpg/v1/fill/w_1198,h_438,al_c,q_85,enc_auto/dfd709_7765a25678ed4c2ebc0bdefe0eaeb1a0~mv2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0rem 1rem;
+	margin: 2% auto;
+}
+.mSec-4 .text-box4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+}
+.img-box4 {
+	width: 50%;
+}
+.img-box4 img {
+	max-width: 90%;
+	height: 100%;
+}
+.text-box4 p {
+	font-size: 2.5rem;
+	width: 60%;
+}
+/* start of fifth section in the main. This one has a transition effect which should be added either with css or javascript */
+.mSec-5 {
+	background-image: linear-gradient(
+			rgba(255 165 38 / 88%),
+			rgb(255 165 38 / 88%)
+		),
+		url("https://static.wixstatic.com/media/11062b_81da449054834d3ebd4f49f6df735c15f000.jpg/v1/fill/w_1583,h_507,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_81da449054834d3ebd4f49f6df735c15f000.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0rem 3rem 0rem 0rem;
+	margin: 2% auto;
+}
+.mSec-5 .img-box5 img {
+	width: 100%;
+	height: 100%;
+}
+#ani {
+	position: relative;
+	animation-name: rainbow;
+	animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+@keyframes rainbow {
+	0%{
+		left: 0%
+	}
+	50% {
+		left: 15%;
+	}
+	100%{
+		left: 15%;
+	}
+}
+.mSec-5 .text-box5 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	padding: 1rem;
+}
+.text-box5 h2 {
+	color: black;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.text-box5 p {
+	font-size: 1.5rem;
+	text-align: left;
+}
+.mSec-5 button {
+	font-size: 1rem;
+	text-transform: capitalize;
+	margin-top: 1.5rem;
+	padding: 1rem 2.5rem;
+	background-color: black;
+	cursor: pointer;
+	color: white;
+	border: 1px solid black;
+}
+.mSec-5 button:hover {
+	background-color: orangered;
+	border: 1px solid orangered;
+}
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	gap: 2rem;
+	justify-content: space-evenly;
+	padding: 5rem 2rem;
+	font-size: 1.3rem;
+	position: relative;
+}
+footer h2 {
+	font-size: 2.5rem;
+	text-transform: capitalize;
+	margin-bottom: 1.5rem;
+}
+footer .f-icons {
+	display: flex;
+	justify-content: flex-start;
+	gap: 3rem;
+	margin: 15rem 0rem 3rem;
+}
+footer .address {
+	width: 28%;
+}
+footer input {
+	max-width: 98%;
+	height: 2rem;
+	margin-bottom: 1rem;
+	background-color: azure;
+	border: 1px solid azure;
+	font-size: 1.5rem;
+	padding-left: 0.5rem;
+}
+footer button {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	padding: 1rem 2.5rem;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	border: 1px solid white;
+}
+footer button:hover {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+/* footer .bottom-pot{
+	position: absolute;
+	top: 10%;
+} */
+@media screen and (max-width: 768px) {
+	
+	.head-sec .text-box, .head-sec .img-box, .mSec-1 .text-box1, .mSec-1 .img-box1, nav{
+		width: 90%;
+	}
+	.text-box h1, .text-box1 h3, .text-box3 h1{
+		font-size: 1.5rem;
+	}
+	.text-box h3, .text-box3 h3, .text-box4 p, .text-box5 h2, .text-box5 p{
+		font-size: 1rem;
+	}
+	.text-box p, .text-box button, .text-box1 p, .text-box3 p, .text-box3 button, .text-box5 button{
+		font-size: 0.7rem;
+	}
+	footer{
+		flex-wrap: wrap;
+	}
+	/* footer .form-sec{
+		text-align: left;
+
+	} */
+	footer h2{
+		font-size: 1.3rem;
+	}
+	footer p, footer form{
+		font-size: 0.5rem;
+	}
+	footer .f-icons{
+		margin: 3rem 0rem 3rem;
+	}
+
+}
+@media screen and (max-width: 600px) {
+nav, .head-sec, .mSec-1,.mSec-5, .mSec-4{
+	flex-direction: column;
+}
+nav a{
+	font-size: 0.6rem !important;
+}
+.mSec-4 .img-box4, .mSec-4 .text-box4, .mSec-5 .text-box5, .mSec-5 .img-box5{
+	width: 90%;
+}
+ .text-box5 h2{
+	 font-size: 1rem;
+ }
+ .text-box5 p, .text-box5 button{
+	 font-size: 0.7rem;
+ }
+}
